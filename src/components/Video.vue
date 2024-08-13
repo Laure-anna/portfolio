@@ -8,7 +8,14 @@
 
 <style scoped>
     .video_background {
-        width: 100%;
-        height: 100%;
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
     }
 </style>

@@ -1,6 +1,7 @@
 <template>
-  <Header />
   <Video />
+  <Header />
+  
  
 </template>
 
