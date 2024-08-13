@@ -4,7 +4,7 @@
     <nav class="nav">
       <a class="nav_link" href="#">Lien 1</a>
       <a class="nav_link" href="#">Lien 2</a>
-      <a class="nav_link" href="#">Lien 3</a>
+      <a class="nav_link" href="#">Lien 2</a>
     </nav>
   </header>
 </template>
