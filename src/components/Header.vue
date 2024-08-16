@@ -1,25 +1,26 @@
 <template>
+
   <header>
-    <!-- <div class="logo">logo</div> -->
-    <a href="#"><img src="../assets/images/logo.png" alt=""></a>
+
+    <a href="#"><img src="../assets/images/logo.png" alt="logo"></a>
 
     <nav class="nav">
-      <a class="nav_link" href="#">A PROPOS</a>
-      <a class="nav_link" href="#">COMPETENCES</a>
-      <a class="nav_link" href="#">PROJETS</a>
-      <a class="nav_link" href="#">CONTACT</a>
+      <a class="nav_link" href="#apropos">A PROPOS</a>
+      <a class="nav_link" href="#competences">COMPETENCES</a>
+      <a class="nav_link" href="#projets">PROJETS</a>
+      <a class="nav_link" href="#contact">CONTACT</a>
+      <a class="nav_link" href="../assets/pdf/CV-LAGRC.pdf" download="CV-LAGRC.pdf">Mon CV<img src="../assets/images/iconetelechargement.png" alt=""></a>
     </nav>
+
   </header>
+
 </template>
 
-<script setup></script>
+<script setup>
+
+</script>
 
 <style scoped>
-
-@font-face {
-    font-family: "1942";
-    src: url('../assets/police/1942.ttf') format('truetype'),
-}
 
 header {
   display: flex;
@@ -28,6 +29,9 @@ header {
   padding: 18px 24px;
   position: sticky;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 img {
@@ -57,4 +61,7 @@ img {
 .nav a:hover, .navbar a.active {
     color: rgba(123, 7, 7, 0.977)
 }
+
+
 </style>
+

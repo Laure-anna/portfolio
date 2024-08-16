@@ -1,3 +1,22 @@
+@font-face {
+    font-family: "JMH";
+    src: url('../assets/police/JMH.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: "1942";
+    src: url('../assets/police/1942.ttf') format('truetype'),
+}
+
+ @font-face {
+    font-family: "AVELIRE";
+    src: url('../assets/police/AVELIRE.otf') format('opentype'),
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     height: 100%;
 }
@@ -9,3 +28,4 @@ body {
 #app {
     position: relative;
 }
+
