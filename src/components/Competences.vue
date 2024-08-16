@@ -44,7 +44,7 @@ h2 {
 }
 
 .container_competences {
-    
+
     width: 95%;
     margin: auto;
     display: grid;
@@ -54,8 +54,9 @@ h2 {
 }
 
 .competences {
-    display: flex;
-    justify-content: space-around;
+    position: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 img {
