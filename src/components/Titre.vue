@@ -39,6 +39,17 @@ p {
       blinkTextCursor 500ms steps(40) infinite normal;
 }
 
+@media screen and (width < 1024px) {
+      .ligne {
+            font-size: 200%;
+            white-space: normal;
+      }
+
+      .animation {
+            animation: none;
+      }
+}
+
 @keyframes typewriter {
       from {
             width: 0;

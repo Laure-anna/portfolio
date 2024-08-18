@@ -2,7 +2,7 @@
 
   <section>
     <div id="apropos" class="presentation">
-        <p>A 26 ans, je suis en reconversion dans le développement web.
+        <p>A 27 ans, je suis en reconversion dans le développement web.
             Passionnée par le potentiel infini du monde digital, je me consacre 
             à acquérir les compétences nécessaires pour réussir dans cette industrie 
             en constante évolution.</p>

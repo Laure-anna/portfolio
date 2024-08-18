@@ -5,15 +5,18 @@
         <div id="competences" class="container_competences">
             <div class="competences">
 
-                <img src="../assets/images/pngwing.com.png" alt="logo HTML">
-                <h2 class="nom_competence">HTML</h2>
-            
-                <img src="../assets/images/javascript.png" alt="logo JavaScript">
-                <h2 class="nom_competence">JavaScript</h2>
-
-                <img src="../assets/images/css.png"  alt="logo css">
-                <h2 class="nom_competence">CSS</h2>
-        
+                <div>
+                    <img class="competences_images" src="../assets/images/pngwing.com.png" alt="logo HTML">
+                    <h3 class="nom_competence">HTML</h3>
+                </div>
+                <div>
+                    <img class="competences_images" src="../assets/images/javascript.png" alt="logo JavaScript">
+                    <h3 class="nom_competence">JavaScript</h3>
+                </div>
+                <div>
+                    <img class="competences_images" src="../assets/images/css.png"  alt="logo css">
+                    <h3 class="nom_competence">CSS</h3>
+                </div>
             </div>
         </div>
     </div>
@@ -31,7 +34,7 @@
     justify-content: space-around;
 }
 
-h2 {
+h2, h3 {
     padding-right: 20px;
     padding-left: 20px;
     background: linear-gradient(transparent, white, transparent);
@@ -47,16 +50,13 @@ h2 {
 
     width: 95%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 100px;
     color: #fff;
 }
 
 .competences {
-    position: flex;
+    display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 img {
